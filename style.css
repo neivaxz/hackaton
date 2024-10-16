@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3e8; /* Cor de fundo bege claro */
+    color: #4b3d29; /* Cor do texto marrom escuro */
+}
+
+.custom-bg {
+    background-color: #d1c6b9; /* Cor bege para a navbar */
+    padding: 10px 0;
+}
+
+.navbar .nav-link {
+    color: white; /* Cor do texto da navbar */
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #c2a48d; /* Cor marrom claro ao passar o mouse */
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 600px;
+}
+
+#cta {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#cta .title {
+    font-size: 2.5rem;
+    color: #4b3d29; /* Cor marrom escuro */
+}
+
+#cta .descricao {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.social-media-buttons a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #4b3d29; /* Cor marrom escuro */
+    transition: color 0.3s;
+}
+
+.social-media-buttons a:hover {
+    color: #c2a48d; /* Cor marrom claro ao passar o mouse */
+}
+
+#banner img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilos adicionais para botões */
+.btn-primary {
+    background-color: #8e735b; /* Cor marrom */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7b5a3a; /* Cor marrom escuro ao passar o mouse */
+}
+
+.btn-danger {
+    background-color: #d9534f; /* Cor de fundo do botão Limpar */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Cor ao passar o mouse */
+}
+
+/* Estilo do formulário */
+.form-control {
+    border: 1px solid #ced4da; /* Borda do formulário */
+}
+
+.form-control:focus {
+    border-color: #80bdff; /* Borda ao focar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra ao focar */
+}
+.stylefooter {
+    background-color: #4E3B31; /* Marrom Escuro */
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    color: #F5F5F5; /* Branco Suave para o texto */
+}
